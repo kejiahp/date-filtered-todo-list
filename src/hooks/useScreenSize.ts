@@ -1,7 +1,7 @@
 import { useLayoutEffect, useState } from "react";
 
 /**
- * An hook to get the screen size, root document size, on window resize
+ * An hook to get the screen size(root document size) on window resize
  */
 export function useScreenSize() {
   const [rootDocWidth, setRootDocWidth] = useState(

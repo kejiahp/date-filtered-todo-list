@@ -1,15 +1,9 @@
 import { createContext, useState } from "react";
 import { TaskType } from "../types/TodoTypes";
 import { startOfToday } from "date-fns";
+import { TasksContextType } from "../types/ContextTypes";
 
-export const TasksContext = createContext<{
-  tasks: TaskType[];
-  setTasks: React.Dispatch<React.SetStateAction<TaskType[]>>;
-  selectedTask: any;
-  setSelectedTask: React.Dispatch<React.SetStateAction<any>>;
-  selectedCalendarDate: Date;
-  setSelectedCalendarDate: React.Dispatch<React.SetStateAction<any>>;
-}>({
+export const TasksContext = createContext<TasksContextType>({
   tasks: [],
   setTasks: () => {},
   selectedTask: null,

@@ -1,14 +1,7 @@
 import { createContext, useState } from "react";
+import { ModalControlContextType } from "../types/ContextTypes";
 
-export const ModalControlContext = createContext<{
-  isDetailsOpen: boolean;
-  setIsDetailsOpen: React.Dispatch<React.SetStateAction<boolean>>;
-  isEditOpen: boolean;
-  setIsEditOpen: React.Dispatch<React.SetStateAction<boolean>>;
-  isAddOpen: boolean;
-  setIsAddOpen: React.Dispatch<React.SetStateAction<boolean>>;
-  closeAll: () => void;
-}>({
+export const ModalControlContext = createContext<ModalControlContextType>({
   isDetailsOpen: false,
   setIsDetailsOpen: () => {},
   isEditOpen: false,
@@ -19,7 +12,7 @@ export const ModalControlContext = createContext<{
 });
 
 /**
- * Desktop Modal Control Provider
+ * Modal Control Context Provider
  */
 function ModalControlContextProvider({
   children,
