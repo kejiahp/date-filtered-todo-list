@@ -5,7 +5,7 @@ Note: the todo data isn't persisted to storage, if you refresh it's all gone. ðŸ
 
 Belows a link to hosted todo:
 
-- [todolist](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
+- [todo list demo](https://date-filtered-todo-list.up.railway.app)
 
 ## Setting up the environment
 
