@@ -5,7 +5,7 @@ Note: the todo data isn't persisted to storage, if you refresh it's all gone. ðŸ
 
 Belows a link to hosted todo:
 
-- [todo list demo](https://date-filtered-todo-list.up.railway.app)
+- [todo list demo](https://date-filtered-todo-list.netlify.app)
 
 ## Setting up the environment
 
